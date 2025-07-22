@@ -54,10 +54,10 @@ vox部分，需要填写体素的大小，体模的大小，否则程序报错�
 
 材料文件和密度设置，voxelId需要和raw文件一一对应，因为使用材料近似代替，密度设置对于每个能谱文件，都需要进行一次矫正调整，具体见下文单独模块  
 
-        #[SECTION MATERIAL FILE LIST v.2020-03-03]
-        #  -- Input material file names first, then material density after keyword 'density=' (optional if using nominal density), then comma-separated list of voxel ID numbers after keyword 'voxelID=' (empty if material not used).
-        /mnt/no2/huzhen/material/air__5-120keV.mcgpu.gz                  density=0.00120479   voxelId=1
-        /mnt/no2/huzhen/material/PMMA__5-120keV.mcgpu.gz                 density=1.18         voxelId=2  
+    #[SECTION MATERIAL FILE LIST v.2020-03-03]
+    #  -- Input material file names first, then material density after keyword 'density=' (optional if using nominal density), then comma-separated list of voxel ID numbers after keyword 'voxelID=' (empty if material not used).
+    /mnt/no2/huzhen/material/air__5-120keV.mcgpu.gz                  density=0.00120479   voxelId=1
+    /mnt/no2/huzhen/material/PMMA__5-120keV.mcgpu.gz                 density=1.18         voxelId=2  
 
 ---
 
