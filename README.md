@@ -27,7 +27,7 @@
 .in配置参考文件 *MC-GPU_sample.in*  
 ### 几何设置
 ![几何示意图](./images/img1.png)
-`10  -50   10     # SOURCE POSITION: X (chest-to-nipple), Y (right-to-left), Z (caudal-to-cranial) [cm]`
+`10  -50   10     # SOURCE POSITION: X (chest-to-nipple), Y (right-to-left), Z (caudal-to-cranial) [cm]`  
 坐标原点为体模文件的左后下面，因此射线源的位置居中设置应为（ 1/2*X , 1/2*Y-SOD , 1/2*Z ）  
 ### 配置文件设置
 *配置文件中有许多“无用”参数，设为0或-1或关闭即可*  
